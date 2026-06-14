@@ -1,0 +1,22 @@
+{
+  "name": "gostegh",
+  "version": "1.0.0",
+  "description": "GOSTegh - Automatic DOCX formatting per GOST 7.32-2017",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "gost",
+    "docx",
+    "formatting"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.22.2",
+    "jszip": "^3.10.1",
+    "multer": "^1.4.5-lts.1",
+    "xml2js": "^0.6.2"
+  }
+}
